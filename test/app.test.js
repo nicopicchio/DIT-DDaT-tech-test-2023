@@ -1,5 +1,9 @@
 const parse = require('../src/app')
 
-test('should return a passed string', () => {
-	expect(parse('hello, world')).toEqual('hello, world');
+test('should throw an error if no string is provided', () => {
+	expect(() => parse().toThrow('No string provided'));
+});
+
+test('should throw an error if the string format is invalid', () => {
+	expect(() => parse('hello, world')).toThrow('Invalid string format');
 });

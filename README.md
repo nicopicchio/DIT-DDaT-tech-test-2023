@@ -10,7 +10,7 @@
    `cd DIT-DDaT-tech-test-2023/`
 4. Ensure your `main` branch is up-to-date using the following command:  
    `git pull https://github.com/nicopicchio/DIT-DDaT-tech-test-2023.git`
-5. Run the `npm install` command to install project dependencies (Jest)
+5. Run the `npm install` command to install project dependencies
 
 ## Instructions to test the app:
 ---

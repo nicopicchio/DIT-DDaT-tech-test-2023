@@ -6,12 +6,12 @@ beforeEach(() => {
 });
 
 test('should throw an error if no string is provided', () => {
-	const result = 'No string or invalid string provided'
+	const result = 'No string or invalid string provided';
 	expect(() => parse().toThrow(result));
 });
 
 test('should throw an error if the string format is invalid', () => {
-	const result = 'No string or invalid string provided'
+	const result = 'No string or invalid string provided';
 	expect(() => parse('hello, world')).toThrow(result);
 });
 
@@ -79,5 +79,3 @@ test('should add 18 months and snap to month', () => {
 	const result = new Date('1913-12-01T00:00:00.000Z');
 	expect(parse('now()+18mon@mon')).toEqual(result);
 });
-
-// to add test with wrong time units

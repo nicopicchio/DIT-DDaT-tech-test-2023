@@ -26,11 +26,7 @@ const parse = (string) => {
 		switch (operator) {
 			case '+':
 			case '-':
-				newDate = utils.addOrSubtractFromDate(
-					newDate,
-					Number(operator + number),
-					timeUnit
-				);
+				newDate = utils.addOrSubtractFromDate(newDate, Number(operator + number),	timeUnit);
 				break;
 			case '@':
 				newDate = utils.snapDateToTimeUnit(newDate, timeUnit);

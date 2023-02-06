@@ -1,7 +1,7 @@
 # DIT DDaT Tech Test 2023
 ![back to the future time circuits](delorean-clock.gif)
 
-## To download the repo on your machine:
+## Instructions to download the repo on your machine:
 ---
 1. Open your CLI
 2. Clone this repository to your local machine by running the following command:  
@@ -12,7 +12,7 @@
    `git pull https://github.com/nicopicchio/DIT-DDaT-tech-test-2023.git`
 5. Run the `npm install` command to install project dependencies (Jest)
 
-## To test the app:
+## Instructions to test the app:
 ---
 1. Open the project in your code editor
 2. Inside the `/src` directory you will find two files: `parse.js` and `utils.js`

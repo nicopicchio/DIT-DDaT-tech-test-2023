@@ -1,5 +1,5 @@
 # DIT DDaT Tech Test 2023
-![back to the future time circuits](time-circuits.png)
+![back to the future time circuits](delorean-clock.gif)
 
 ## To download the repo on your machine:
 ---

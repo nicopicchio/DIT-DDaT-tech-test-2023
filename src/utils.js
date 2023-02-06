@@ -19,7 +19,6 @@ const addOrSubtractFromDate = (date, value, timeUnit) => {
 			date.setSeconds(date.getSeconds() + value);
 			break;
 		default:
-			// invalid time unit
 			break;
 	}
 	return date;
@@ -53,7 +52,6 @@ const snapDateToTimeUnit = (date, timeUnit) => {
 			date = new Date(Date.UTC(year, month, day, hours, minutes, seconds));
 			break;
 		default:
-			// invalid time unit
 			break;
 	}
 	return date;

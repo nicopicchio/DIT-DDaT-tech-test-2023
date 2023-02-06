@@ -43,4 +43,11 @@ const parse = (string) => {
 	return newDate;
 };
 
+console.log('current date -> ', parse('now()'));
+console.log('current date plus 1 day -> ', parse('now()+1d'));
+console.log('current date minus 1 day -> ', parse('now()-1d'));
+console.log('current date snapped at day time unit -> ', parse('now()@d'));
+console.log('current date minus 1 year, snapped at month time unit -> ', parse('now()-1y@mon'));
+console.log('current date plus 10 days plus 12 hours -> ', parse('now()+10d+12h'));
+
 module.exports = parse;

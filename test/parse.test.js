@@ -79,3 +79,5 @@ test('should add 18 months and snap to month', () => {
 	const result = new Date('1913-12-01T00:00:00.000Z');
 	expect(parse('now()+18mon@mon')).toEqual(result);
 });
+
+// to add test with wrong time units

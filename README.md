@@ -21,4 +21,4 @@
 3. Inside the `/test` directory you fill find the `parse.test.js` file which contains the test suite for the app
    - To execute the test suite run `npm test` in your CLI
 4. To test the `parse()` function run `node src/parse.js` || `node parse.js` (depending on your current directory) in your CLI
-5. On lines 48-53 of the `parse.js` file I left some `console.log()` to show some examples
+5. On lines 41-46 of the `parse.js` file I left some `console.log()` to show some examples

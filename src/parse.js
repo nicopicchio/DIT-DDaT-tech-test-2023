@@ -32,7 +32,6 @@ const parse = (string) => {
 				newDate = utils.snapDateToTimeUnit(newDate, timeUnit);
 				break;
 			default:
-				// invalid operator
 				break;
 		}
 	}
